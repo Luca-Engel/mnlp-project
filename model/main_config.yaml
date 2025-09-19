@@ -1,0 +1,13 @@
+"team_name": "start-unk-stop-pad" # Your team name
+"eval_method": [ "mcqa", "rag", "quantiz" ] # mcqa, reward, rag, compression
+"task_type": "causal_lm" # causal_lm, seq2seq
+"policy_model_path": "mNLP-project/gpt2-finetuned-mcqa-sciq2-safety" # Your path to the final checkpoint
+"reference_model_path": "openai-community/gpt2" # The repo id of your pretrained reference model
+"quantized_policy_model_path": "mNLP-project/gpt2-safety-GPTQ-8bit" # Your path to the final quantized checkpoint
+"rag_policy_model_path": "mNLP-project/gpt2-finetuned-mcqa-sciq2-safety_rag" # Your path to the final RAG checkpoint
+"test_data_path": "./datasets/sciq_mcqa_test.jsonl" # Your path to the test data
+"dpo_model_args": { } # Put any model arguments required to load your DPO model below
+"rag_model_args": { } # Put any model arguments required to load your rag model below
+"quantized_model_args": { device_map: "auto",
+                          trust_remote_code: False,
+                          revision: "main" } # Put any model arguments required to load your quantized model below

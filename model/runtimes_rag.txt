@@ -1,0 +1,24 @@
+Model: openai-community/gpt2
+Average time per question: 1.2409225869178773
+Standard deviation: 0.1650091837798186
+Max time: 1.7321105003356934
+Min time: 1.0988998413085938
+**************************************************
+
+
+Model: mNLP-project/gpt2-finetuned-mcqa-sciq2-safety
+Average time per question: 1.2684155440330505
+Standard deviation: 0.17666786611997554
+Max time: 1.7491569519042969
+Min time: 1.1225860118865967
+**************************************************
+
+
+Model: mNLP-project/gpt2-finetuned-mcqa-sciq2-safety_rag
+Average time per question: 1.4526709413528442
+Standard deviation: 0.17917103913308702
+Max time: 1.9384076595306396
+Min time: 1.3028368949890137
+**************************************************
+
+
